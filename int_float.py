@@ -2,5 +2,9 @@
 
 # print(calc)
 
-bytes(4)
-b'\x00\x00\x00\x00'
+smileyBytes = bytes('😊','utf-8')
+print(smileyBytes)
+smileyBytes.decode('utf-8')
+print(smileyBytes)
+
+
