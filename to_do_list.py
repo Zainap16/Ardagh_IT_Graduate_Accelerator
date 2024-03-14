@@ -2,12 +2,24 @@
 
 user_list = []
 items = 0
+is_True = True
 
-items = int(input("how many items to you wish to add: "))
-for i in items:
-    lists = input()
-    user_list.append(lists)
-    print(user_list)
+# print('start-s or quit-q')
+# user_input= input()
+
+# if user_input == 's':
+#     while is_True:
+#         user_add_item = input('add item')
+#         user_list.append(user_add_item)
+# else:
+#     print('invalid')
+
+# while       
+
+    
+    
+    
+
     
 
 
