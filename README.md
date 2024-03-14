@@ -7,7 +7,7 @@ Week One : Summary
 
 Data Types:
 
-*Numeric Types: Integers (int), floating-point numbers (float), and complex numbers (complex).
+* Numeric Types: Integers (int), floating-point numbers (float), and complex numbers (complex).
 Sequence Types: Lists (list), tuples (tuple), and strings (str).
 Mapping Type: Dictionary (dict).
 Set Types: Set (set) and frozen set (frozenset).
