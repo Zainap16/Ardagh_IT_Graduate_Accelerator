@@ -5,7 +5,7 @@ Capaciti : Python Week 1 to 4
 
 Week One : Summary
 
-Data Types:
+*Data Types:*
 
 * Numeric Types: Integers (int), floating-point numbers (float), and complex numbers (complex).
 * Sequence Types: Lists (list), tuples (tuple), and strings (str).
