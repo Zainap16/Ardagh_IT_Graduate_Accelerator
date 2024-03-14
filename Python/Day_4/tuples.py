@@ -25,7 +25,7 @@
 capitals = {'usa': 'washington dc',
             'india':'new dehli',
             'china':'beijing',
-            'russia':'moscow'}
+            'russia':'moscow',}
 
 # print(capitals['usa'])
 print(capitals.keys())
