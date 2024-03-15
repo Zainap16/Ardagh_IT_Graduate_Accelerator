@@ -1,0 +1,1 @@
+#  ternary operator/conditional expression, operator that takes 3 operands/bascially an if-else statement

@@ -7,7 +7,7 @@
 # value change to +1 and loop occurs again
 
 # assuming that user enters 'aaaaabbbcc' == 5a3b2c
-myString = 'aaaaabbbcc'
+myString = input("enter code: ")
 
 # def myEncode():
 #     pass
