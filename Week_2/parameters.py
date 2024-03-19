@@ -11,7 +11,7 @@
 # default args : have default values ex-- def greet(name, age=18)
 # variable-length args: define functions that can accept a variable number of args:
 
-# def sum_all(*args):
+# def sum_all(*args): -->> positional args
 #     total = 0
 #     for num in args:
 #         total += num
@@ -21,7 +21,7 @@
 #  They are collected into a tuple within the function. *args captures all positional arguments passed to the sum_all function and stores them in a tuple named args.
 
 
-def display_info(**kwargs):
+def display_info(**kwargs):  #keyword
     for key, value in kwargs.items():
         print(f"{key}: {value}")
 
