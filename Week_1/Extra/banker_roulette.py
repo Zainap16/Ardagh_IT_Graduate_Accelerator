@@ -4,7 +4,7 @@ import random
 names = ["Zainap","Kopano","Collen","Shaqeel","Sino"]
 
 names_len = len(names)
-rando_names = random.randint(0,names_len +1)
+rando_names = random.randint(0,names_len - 1)
 choice = names[rando_names]
 print(f"original list: {names}")
 print(f"length of list: {names_len}")
