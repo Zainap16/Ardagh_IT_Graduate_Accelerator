@@ -12,8 +12,17 @@ nr_letters = int(input("How many letters? "))
 nr_symbols = int(input("How many symbols? "))
 nr_num = int(input("How many numbers? "))
 
-for letter in alphabet:
-    char = random.randint(alphabet)
-    
-print(char)
+char_random = random.sample(alphabet, nr_letters)
+  
+
+symbols_random = random.sample(symbols, nr_letters)
+
+
+num_random = random.sample(numbers, nr_letters)
+
+
+addition_random =(char_random+ symbols_random+num_random)
+extreme_random =random.shuffle(addition_random)
+extreme_random_str = ''.join(extreme_random)
+print(extreme_random_str)
     
