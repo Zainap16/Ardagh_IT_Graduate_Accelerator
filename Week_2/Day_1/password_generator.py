@@ -14,12 +14,9 @@ nr_num = int(input("How many numbers? "))
 
 char_random = random.sample(alphabet, nr_letters)
   
-
 symbols_random = random.sample(symbols, nr_letters)
 
-
 num_random = random.sample(numbers, nr_letters)
-
 
 addition_random =(char_random+ symbols_random+num_random)
 extreme_random =random.shuffle(addition_random)
