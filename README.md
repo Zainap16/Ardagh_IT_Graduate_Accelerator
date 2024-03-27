@@ -3,7 +3,7 @@
 <br>
 Capaciti : Python Week 1 to 4
 
-Week One : Summary
+# A Week One : Summary
 
 __Data Types:__
 
@@ -54,5 +54,46 @@ for punctuation in punctuations:
     text = text.replace(punctuation, '')
 text = text.replace('\n' , ' ')
 text = ' '.join([word for word in text.split() if len(word) > 3])
+
+__Lambda:__
+
+
+>double = lambda x: x * 2
+multiply = lambda x, y: x * y
+add = lambda x, y, z: x + y + z
+full_name = lambda first_name, last_name: first_name + " " + last_name
+age_check = lambda age: True if age >= 18 else False
+
+print(age_check(18))
+
+__Class Inheritance:__
+
+># Define a superclass called Animal
+class Animal:
+    def __init__(self, name):
+        self.name = name
+
+    def speak(self):
+        raise NotImplementedError("Subclasses must implement this method")
+
+# Define a subclass called Dog, which inherits from Animal
+class Dog(Animal):
+    def speak(self):
+        return f"{self.name} says woof!"
+
+# Define another subclass called Cat, which also inherits from Animal
+class Cat(Animal):
+    def speak(self):
+        return f"{self.name} says meow!"
+
+# Create instances of the Dog and Cat classes
+dog = Dog("Buddy")
+cat = Cat("Whiskers")
+
+# Call the speak method on the instances
+print(dog.speak())  # Output: Buddy says woof!
+print(cat.speak())  # Output: Whiskers says meow!
+
+
 
 
