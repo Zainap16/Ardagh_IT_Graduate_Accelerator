@@ -33,3 +33,26 @@ __Functions:__
 __Object-Oriented Programming (OOP):__
 
 * Classes and Objects: Classes are blueprints for creating objects with attributes and method
+
+Week Two : Summary
+
+__Functions:__
+
+def functionName(parameters):
+code
+return 
+* args
+* **kwargs
+
+__Functions:__
+
+* Text Processing in Python:
+> text = "Insert Text Here"
+punctuations = [',' , '.' , '*']
+text = text.lower()
+for punctuation in punctuations:
+    text = text.replace(punctuation, '')
+text = text.replace('\n' , ' ')
+text = ' '.join([word for word in text.split() if len(word) > 3])
+
+

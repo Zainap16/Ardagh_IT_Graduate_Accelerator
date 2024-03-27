@@ -1,7 +1,7 @@
 # def reda_to_file (filename):
-with open('myfile2', 'r') as f:
+with open('myfile2.txt', 'r') as f:
         
-    size_to_read = 10
+    size_to_read = 5
     f_contents = f.read()
         
     while len(f_contents) > 0:
