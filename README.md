@@ -3,7 +3,7 @@
 <br>
 Capaciti : Python Week 1 to 4
 
-# A Week One : Summary
+# Week One : Summary
 
 __Data Types:__
 
@@ -34,7 +34,7 @@ __Object-Oriented Programming (OOP):__
 
 * Classes and Objects: Classes are blueprints for creating objects with attributes and method
 
-# A Week Two : Summary
+# Week Two : Summary
 
 __Functions:__
 
@@ -94,7 +94,7 @@ Call the speak method on the instances
 print(dog.speak())  # Output: Buddy says woof!
 print(cat.speak())  # Output: Whiskers says meow!
 
-# A Week Three : Summary
+# Week Three : Summary
 
 * AssertionError : Raised when an assert statement fails.
 * AttributeError : Raised when attribute assignment or reference fails.
