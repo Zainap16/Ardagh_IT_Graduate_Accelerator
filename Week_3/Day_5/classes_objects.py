@@ -1,4 +1,4 @@
-from car import Car
+from Week_3.Day_3.car import Car
 cr1 = Car("Toyota","Camry",2020)
 print("Car Name: ", cr1.get_descriptive_name())
 print(cr1.read_odoneter())
