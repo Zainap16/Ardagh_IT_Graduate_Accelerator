@@ -70,6 +70,12 @@ Adapting new types of data & analytical methods as the organization's needs to e
     • Machine Learning (ML) - subset of AI techniques attempt to apply stats to data problems in an effort to discover new knowledge. 
     • Deep Learning - subdivision of ML uses complex techniques, known as neural networks, to discover knowledge in a certain way. Its commonly used for image, video, & sound analysis.
 
+### Relationship between AI, ML & DL
 
+<img src="/Data_Analytics/Chapter_1/relationship_ai.png" width="400" height="250">
+
+#### DA tools:
+    • Spreadsheets (excel) & google sheets
+R programming (advanced) - RStudio
 
 [test](/README.md)
