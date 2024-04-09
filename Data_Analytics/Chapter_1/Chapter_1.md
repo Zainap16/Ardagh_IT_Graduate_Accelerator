@@ -32,6 +32,44 @@ Data analyst role is to transform raw data into actionable insights that guide d
     *  Keeping up to date with the latest industry trends, tools & technologies in data analysis.
 Adapting new types of data & analytical methods as the organization's needs to evolve.
 
-<img src="/Data_Analytics/Chapter_1/image.png" width="400" height="250">
+
+### Responsibilties of DA: 
+
+<img src="/Data_Analytics/Chapter_1/respos_da.png" width="400" height="250">
+
+*Moore's Law* _is a prediction made by Gordon Moore, co-founder of Intel, in 1965. Simply put, it states that the number of transistors (tiny switches) on a computer chip doubles about every two years, leading to an exponential increase in computing power. This doubling occurs while the cost of computer chips remains roughly the same. In simpler terms, it means that over time, computers become faster, more powerful, and cheaper to produce. This law has held true for many decades and has been a driving force behind the rapid advancement of technology._ 
+
+### Occupation of DA: 
+
+<img src="/Data_Analytics/Chapter_1/respos_da.png" width="400" height="250">
+
+### Analytic Process:
+
+    • Data acquisition.
+    • Cleaning and manipulation
+    • Analysis
+    • Visualization
+    • Reporting and communication
+
+### Notes:
+
+    • The analytic process is iterative.
+    • Analytics:
+        ○ Descriptive A
+        ○ Predictive A
+        ○ Prescriptive A
+
+### Machine learning, artificial intelligence and deep learning:
+
+    • ML - uses algorithms to discover knowledge in your dataset. Some cases where machine learning commonly adds value:
+        ○ Discovering anomalies in system and application logs that may be indicative of cybersecurity incident.
+        ○ Forecasting product sales based on market and environmental conditions.
+        ○ Setting prices for hotel rooms far in advanced based on forecasted demand.
+        ○ Forecasting product sales based on market & environmental conditions.
+    • Artificial Intelligence (AI) - includes any type of technique where you are attempting to get a computer system to imitate human behavior. Basically asking the computer system to artificiality behave as if they were intelligent.
+    • Machine Learning (ML) - subset of AI techniques attempt to apply stats to data problems in an effort to discover new knowledge. 
+    • Deep Learning - subdivision of ML uses complex techniques, known as neural networks, to discover knowledge in a certain way. Its commonly used for image, video, & sound analysis.
+
+
 
 [test](/README.md)
