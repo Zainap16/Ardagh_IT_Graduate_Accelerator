@@ -35,13 +35,13 @@ Adapting new types of data & analytical methods as the organization's needs to e
 
 ### Responsibilties of DA: 
 
-<img src="/Data_Analytics/Chapter_1/respos_da.png" width="400" height="250">
+<img src="/Data_Analytics/Module_1/respos_da.png" width="400" height="250">
 
 *Moore's Law* _is a prediction made by Gordon Moore, co-founder of Intel, in 1965. Simply put, it states that the number of transistors (tiny switches) on a computer chip doubles about every two years, leading to an exponential increase in computing power. This doubling occurs while the cost of computer chips remains roughly the same. In simpler terms, it means that over time, computers become faster, more powerful, and cheaper to produce. This law has held true for many decades and has been a driving force behind the rapid advancement of technology._ 
 
 ### Occupation of DA: 
 
-<img src="/Data_Analytics/Chapter_1/respos_da.png" width="400" height="250">
+<img src="/Data_Analytics/Module_1/job_da.png" width="400" height="250">
 
 ### Analytic Process:
 
@@ -72,10 +72,10 @@ Adapting new types of data & analytical methods as the organization's needs to e
 
 ### Relationship between AI, ML & DL
 
-<img src="/Data_Analytics/Chapter_1/relationship_ai.png" width="400" height="250">
+<img src="/Data_Analytics/Module_1/relationship_ai.png" width="400" height="250">
 
-#### DA tools:
+#### DA tools
     • Spreadsheets (excel) & google sheets
-R programming (advanced) - RStudio
+    • R programming (advanced) - RStudio
 
 [test](/README.md)
