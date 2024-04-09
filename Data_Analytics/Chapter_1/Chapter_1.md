@@ -32,6 +32,6 @@ Data analyst role is to transform raw data into actionable insights that guide d
     *  Keeping up to date with the latest industry trends, tools & technologies in data analysis.
 Adapting new types of data & analytical methods as the organization's needs to evolve.
 
-<img src="/Data_Analytics/Chapter_1/image.png" width="100" height="100">
+<img src="/Data_Analytics/Chapter_1/image.png" width="250" height="250">
 
 [test](/README.md)
