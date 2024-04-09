@@ -106,3 +106,18 @@ The character data type limits data entry to only valid characters. Characters c
 
 * Alphanumeric data type is ideal for storing product stock-keeping units (SKUs)
 
+<img src="/Data_Analytics/Module_1/sku.png" width="400" height="250">
+
+#### Rational Numbers:
+<img src="/Data_Analytics/Module_1/image.png" width="400" height="250">
+
+<img src="/Data_Analytics/Module_1/img_1.png" width="400" height="250">
+
+<img src="/Data_Analytics/Module_1/img_2.png" width="400" height="250">
+
+#### Currency
+
+<img src="/Data_Analytics/Module_1/currency.png" width="400" height="250">
+
+<img src="/Data_Analytics/Module_1/strong_weak_typing.png" width="400" height="250">
+
