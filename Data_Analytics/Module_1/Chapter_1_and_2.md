@@ -121,3 +121,40 @@ The character data type limits data entry to only valid characters. Characters c
 
 <img src="/Data_Analytics/Module_1/strong_weak_typing.png" width="400" height="250">
 
+### Unstructured data types:
+
+Unstructured data(digital images, audio recordings & open-minded surveys) is any type of data that does not fit neatly into the tabular model. 
+
+<img src="/Data_Analytics/Module_1/img_3.png" width="400" height="250">
+
+<img src="/Data_Analytics/Module_1/img_4.png" width="400" height="250">
+
+<img src="/Data_Analytics/Module_1/img_5.png" width="400" height="250">
+
+### Categories of Data:
+
+#### Quantitative vs Qualitative Data
+
+* Quantitative data consists of numeric values. 
+
+* Quantitative data answers questions like “How many?” and “How much?” Qualitative data consists of frequent text values. They are descriptive data.
+
+#### Discrete vs Continuous Data
+
+1. *Discrete Data*: Discrete data consists of distinct, separate values. These values are typically counted and often represent things that can be counted in whole numbers, such as the number of students in a class, the number of cars in a parking lot, or the number of books on a shelf. Discrete data can only take specific values and usually doesn't have decimal points. For example, you can have 3 apples, but you can't have 3.5 apples.
+
+2. *Continuous Data*: Continuous data, on the other hand, can take any value within a range. It's like a continuous flow without interruption. Continuous data is measured and can have infinite possible values within a given range. Examples of continuous data include measurements like height, weight, temperature, and time. These values can be fractions or decimals and can take on any value within a certain range. For instance, you can measure someone's height as 5.5 feet, and it could be even more precise like 5.5421 feet.
+
+* Note: Qualitative data is discrete, but quantitative data can be either discrete or continuous data.
+
+#### Categorical Data
+
+Categorical data refers to data that represents categories or groups. Unlike numerical data, which represents quantities or measurements, categorical data represents characteristics or qualities. 
+
+#### Dimensional Data
+
+* "Dimensional data" typically refers to data organized in a dimensional model, which is a data structure optimized for data warehousing and online analytical processing (OLAP). In simpler terms, it's a way of organizing data in a database to make it easier to analyze and understand, especially for business intelligence purposes.
+
+* Fact tables store measurement data that is of interest to a business. A veterinary practice may want to answer some questions about appointments. A table holding appointment data would be called a fact table.
+
+
