@@ -78,4 +78,31 @@ Adapting new types of data & analytical methods as the organization's needs to e
     • Spreadsheets (excel) & google sheets
     • R programming (advanced) - RStudio
 
-[test](/README.md)
+CHAPTER 2: UNDERSTADING DATA
+
+*data element* is an attribute about a person, place or thing which contains data within a range of values. They also s=describe characteristics of activities including orders/transaction/events. (pet name, animal type -- heading names)
+
+*data type* limits the values a data element can have.
+
+## Tabular Data
+
+* Tabular data is data organized into a table, made up of columns and rows. 
+
+* A table represents information about a single topic. Each column represents a uniquely named field within a table, also called a variable, about a single characteristic.
+
+* Relational database management system (RDMS), - named as a database, extends the tabular model. Instead of having all data in a single table, a database organizes related data across multiple tables.
+
+* The connection between tables is known as a relationship. Oracle, Microsoft SQL Server, MySQL, and PostgreSQL are examples of database software. Tabular data is the concept that underpins both spreadsheets and relational databases.
+
+### Structured Data Types:
+
+* Structured data is tabular in nature and organized into rows and columns. Structured data is what typically comes to mind when looking at a spreadsheet. With clearly defined column headings, spreadsheets are easy to work with and understand. In a spreadsheet, cells are where columns and rows intersect.
+
+#### Character:
+
+The character data type limits data entry to only valid characters. Characters can include the alphabet that you might see on your keyboard, as well as numbers. Depending on your needs, multiple data types are available that can enforce character limits.
+
+* Alphanumeric is the most widely used data type for storing character-based data. As the name implies, alphanumeric is appropriate when a data element consists of both numbers and letters
+
+* Alphanumeric data type is ideal for storing product stock-keeping units (SKUs)
+
