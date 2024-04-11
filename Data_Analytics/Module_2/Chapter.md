@@ -137,7 +137,7 @@ Graph databases are a type of NoSQL database that uses graph structures with nod
     
     Dimensionality refers to the number of attributes a table has. The greater the number of attributes, the higher the dimensionality. One dimension is time. One way to achieve this is by adding a start and end time of a products price.
     
-    Data Acquisition Concepts
+## Data Acquisition Concepts
     
     Integration
     
@@ -148,7 +148,7 @@ Graph databases are a type of NoSQL database that uses graph structures with nod
     Load:  The purpose of the load phase is to ensure data gets into the analytical system as quickly as possible.
     
      
-    ETL Vendors
+### ETL Vendors
     
     
     An initial load occurs the first time data is put into a data warehouse. After that initial load, each additional load is a delta load, also known as an incremental load. A delta load only moves changes between system.
@@ -161,7 +161,7 @@ Graph databases are a type of NoSQL database that uses graph structures with nod
     
     Web service is an API you can call via HTTP. API does NOT have to be a web service.
 
-<img src="/Data_Analytics/Module_2/eh.png.png" width="400" height="250">
+<img src="/Data_Analytics/Module_2/eh.png" width="400" height="250">
 
     Web scraping
     
