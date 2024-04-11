@@ -237,3 +237,5 @@ example:
 SELECT  Animal_Name, IFF(Sex = 'M', 'Male', 'Female')
 
 FROM   Animal
+
+<img src="/Data_Analytics/Module_2/ehhehe.png" width="400" height="250">
