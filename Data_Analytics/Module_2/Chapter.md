@@ -225,3 +225,10 @@ FROM   Animal
 WHERE  Animal_Type = 'Dog'
 AND   Weight> 60
 ORDER BY Date_of_Birth DESC
+
+
+As you can see from the syntax, the IFF function expects the following three parameters:
+
+Boolean Expression:  The expression must return either TRUE or FALSE.
+True Value:  If the Boolean expression returns TRUE, the IFF function will return this value.
+False Value:  If the Boolean expression returns FALSE, the IFF function will return this value.
