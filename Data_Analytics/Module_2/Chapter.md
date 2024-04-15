@@ -239,3 +239,52 @@ FROM   Animal
 IFF checks the "Sex" column if the value is "M" and if it returns Male; otherwise Female. This means that so long as Sex="M", it will return Male; otherwise everything else will be Female.
 
 <img src="/Data_Analytics/Module_2/ehhehe.png" width="400300" height="250">
+
+### Date() function:
+
+SELECT DATE(datetime_column) AS date_only
+FROM your_table;
+
+
+SELECT CURDATE(); -- gets current date
+
+## Query Optimization
+
+### Parametrization:
+
+When SQL query executes, DB has to be parse; Parsing means to translate human-readable SQL into code the DB understands. This takes time to parse. Effective use of parametrization reduces the number of times the DB has to parse individual queries.
+
+
+Example
+
+Original --
+SELECT profile_details
+FROM profile_table
+WHERE profile_name = "Gerald"
+
+Parametrization --
+SELECT profile_details
+FROM profile_table
+WHERE profile_name = &customer_name
+
+Instead of looking for an exact string, the query uses a variable called &customer_name. the code populates the var with an appropriate cust name
+
+### Indexing:
+
+Full table scan - DB scans each row unti; it find the one that matches the WHERE clause. --> best for small tables
+
+Database Index - works like the index at the back of a book. Finds a specific page number. This points to a single column/multiple columns.
+Although can improve speed, it slows down; create, update and delete activities.
+
+
+### Data Subsets and Temp Tables:
+
+When you have a huge amount of data, it can be hard to work with it all at once. Let's say you have a million customers, each making 200 orders a year, and you've got data for 10 years. That's a massive 2 billion rows in your Order table!
+
+Now, if you want to look at the history of just one customer's orders, it's not practical to sift through all those rows every time. So, we use a trick called temporary tables. These tables store the results of a query temporarily, just for your current session. When you're done, the temporary table disappears on its own.
+
+Here's how it works: You start a session, ask the database to create a temporary table with the order history of the customer you're interested in, then you can run queries on that temporary table as if it were a regular one. Once you're done with your work and close the session, poof! The temporary table vanishes, and you're left with a clean slate for your next session. It's like having a workspace that magically cleans itself up when you're done.
+
+### Execution plan:
+
+An execution plan shows the details of how a database runs a specific query. Execution plans are extremely helpful in troubleshooting query performance issues. They provide additional information about how a query is spending its time. For example, an execution plan can tell you if a slow-running query uses a full table scan instead of an index scan. In this case, it could be that the query is poorly written and not using the existing indexes. It also could be that a column needs a new index. Looking at execution plans is an integral part of developing efficient queries. It is worth understanding the nuances of how to interpret execution plans for the database platform you use. If you need help understanding an execution plan, get in touch with your local database administrator.
