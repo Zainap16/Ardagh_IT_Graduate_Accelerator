@@ -326,3 +326,76 @@ A specification describes the target value for a component. A specification mism
 ## Data validation
 
 Ensure data has a consistent data type.
+
+* Recording Data
+
+*  Recoding data is a technique you can use to map original values for a variable into new values to facilitate analysis. Recoding groups data into multiple categories, creating a categorical variable. A categorical variable is either nominal or ordinal. Nominal variables are any variable with two or more categories where there is no natural order of the categories, like hair colour or eye colour. Ordinal variables are categories with an inherent rank.
+
+* Derived Variables
+A derived variable is a new variable resulting from a calculation on an existing variable. 
+
+* Data Merge
+A data merge uses a common variable to combine multiple datasets with different structures into a single dataset. Merging data improves data quality by adding new variables to your existing data. Additional variables make for a richer dataset, which positively impacts the quality of your analysis. 
+* Data Blending
+Data blending combines multiple sources of data into a single dataset at the reporting layer. 
+
+* Concatenation
+Concatenation is the merging of separate variables into a single variable. Concatenation is a highly effective technique when dealing with a source system that stores components of a single variable in multiple columns. The need for concatenation frequently occurs when dealing with date and time data. Concatenation is also useful when generating address information.
+* Data Append
+A data append combines multiple data sources with the same structure, resulting in a new dataset containing all the rows from the original datasets. When appending data, you save the result as a new dataset for ongoing analysis
+* Imputation
+Imputation is a technique for dealing with missing values by replacing them with substitutes. When merging multiple data sources, you may end up with a dataset with many nulls in a given column. If you are collecting sensor data, it is possible to have missing values due to collection or transmission issues.
+
+Here are a few approaches an analyst can use for imputing values:
+• Remove Missing Data:  With this approach, you can remove rows with missing values without impacting the quality of your overall analysis.
+• Replace with Zero:  With this approach, you replace missing values with a zero. Whether or not it is appropriate to replace missing data with a zero is contextual. In this case, zero isn't an appropriate value, as a person's weight should be a positive number. In addition, replacing a zero in this case has an extraordinary impact on the overall average weight.
+• Replace with Overall Average:  Instead of using a zero, you can compute the average Weight value for all rows that have data and then replace the missing Weight values with that calculated average.
+• Replace with Most Frequent (Mode):  Alternatively, you can take the most frequently occurring value, called the mode, and use that as the constant.
+• Closest Value Average:  With this approach, you use the values from the rows before and after the missing values. For example, to replace the missing measurements for 2/13/2021 and 2/14/2021, take the values from 2/12/2021 and 2/15/2021 to compute the average.
+Reduction
+When dealing with big data, it is frequently unfeasible and inefficient to manipulate the entire dataset during analysis. Reduction is the process of shrinking an extensive dataset without negatively impacting its analytical value. There are a variety of reduction techniques from which you can choose. Selecting a method depends on the type of data you have and what you are trying to analyze. Dimensionality reduction and numerosity reduction are two techniques for data reduction.
+
+* Dimensionality Reduction
+One reduction technique is dimensionality reduction, which removes attributes from a dataset. Removing attributes reduces the dataset's overall size
+
+* Numerosity Reduction
+Another technique is numerosity reduction, which reduces the overall volume of data.
+
+* Data aggregation is the summarization of raw data for analysis. 
+Transposing data is when you want to turn rows into columns or columns into rows to facilitate analysis.
+
+In the context of data manipulation, normalizing data differs from our discussion of database normalization in Chapter 3. In this context, normalizing data converts data from different scales to the same scale.
+
+<img src="/Data_Analytics/Module_2/img10.png" width="400300" height="250">
+
+Raw data can contain columns with composite or distributed structural issues. A composite issue is when a raw data source has multiple, distinct values combined within a single character column. When this happens, each value in a composite column has data that represents more than one attribute. 
+
+
+### Circumstances to Check for Quality
+
+1. Data Acquisition
+2. Data transformation & conversions
+3. Data manipulation
+4. Final product preparation
+
+Automated Validation
+Many data sources feed analytics environments. While some of these data sources are other computer systems, others depend directly on people. Whenever people interact with systems, it's possible to introduce data-related errors. Whether source data is machine- or human-generated, one way to prevent data entry mistakes from adversely impacting data quality is to automate data validation checks
+
+### Data Quality Dimensions
+It is essential to consider multiple attributes of data when considering its quality. Six dimensions to take into account when assessing data quality are accuracy, completeness, consistency, timeliness, uniqueness, and validity.
+
+1. Data accuracy
+2. Data completeness
+3. Data consistency
+4. Data timelines
+5. Data uniqueness
+6. Data validity
+
+
+### Methods to validate quality
+
+1. Reasonable expectations: One approach is to determine whether or not the data in your analytics environment meets your reasonable expectations.
+2. Data profiling: uses stats ,measures to check data discrepancies, include Null values. Can also identify irregular patterns within data.
+3. Data audits: data audits examine your data and determine whether you have the data you need to operate your business.
+4. Sampling: Another method for validating data quality is by examining a sample of your data. Sampling is a statistical technique in which you use a subset of your data to inform conclusions about your overall data. 
+Cross-validation: Analysts frequently use existing data to generate predictive models using a variety of statistical methods. Cross-validation is a statistical technique that evaluates how well predictive models perform. Cross-validation works by dividing data into two subsets. The first subset is the training set, and the second is the testing, or validation, set.
