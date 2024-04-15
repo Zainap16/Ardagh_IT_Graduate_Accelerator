@@ -233,9 +233,9 @@ Boolean Expression:  The expression must return either TRUE or FALSE.
 True Value:  If the Boolean expression returns TRUE, the IFF function will return this value.
 False Value:  If the Boolean expression returns FALSE, the IFF function will return this value.
 
-example:
 SELECT  Animal_Name, IFF(Sex = 'M', 'Male', 'Female')
+FROM   Animal 
 
-FROM   Animal
+IFF checks the "Sex" column if the value is "M" and if it returns Male; otherwise Female. This means that so long as Sex="M", it will return Male; otherwise everything else will be Female.
 
-<img src="/Data_Analytics/Module_2/ehhehe.png" width="400" height="250">
+<img src="/Data_Analytics/Module_2/ehhehe.png" width="400300" height="250">
