@@ -399,3 +399,152 @@ It is essential to consider multiple attributes of data when considering its qua
 3. Data audits: data audits examine your data and determine whether you have the data you need to operate your business.
 4. Sampling: Another method for validating data quality is by examining a sample of your data. Sampling is a statistical technique in which you use a subset of your data to inform conclusions about your overall data. 
 Cross-validation: Analysts frequently use existing data to generate predictive models using a variety of statistical methods. Cross-validation is a statistical technique that evaluates how well predictive models perform. Cross-validation works by dividing data into two subsets. The first subset is the training set, and the second is the testing, or validation, set.
+
+# Chapter 5:
+
+![alt text](image-1.png)
+
+
+
+Intro to stats:
+
+Stats - collection and interpation of data
+
+Inferential - takes sample, analysis and judge it
+
+Descriptive - gets data and talk about it (histograms, graphs)
+
+Populations total amount of "things"
+
+Sample: small part of the population that is used for study
+
+Sample size - total amount of "things" in a sample
+
+Variable - characteristics what we studying
+
+Quantitative - numeric (height)
+
+Categorical data (categorial : ordinal & nominal) -values that place "things" into different groups/categories (hir color)
+
+Ordinal - logical ordering values of categorical (letter grade; A B C)
+
+Nominal - NO logical ordering (hair color; black, grey)
+
+Quantitative variable:
+
+    • Discrete - variables that can only be measured whole numbers (num of pets you own: 0,2,10 but BUT NOT 2.7)
+    • Continuous - take any numerical value (weight: 105, 170.475)
+    
+    
+    
+Descriptive stats
+
+Measures of frequecy
+
+![alt text](image-2.png)
+
+    • Count
+    • 
+    • Percentage Change( (x2-x1)/|x1|)* 100
+    • Percetn Difference = ( (x2-x1)/(x1+x2 / 2)/|x1|)* 100
+    • Frquency: Frequency describes how often a specific value for a variable occurs in a dataset.
+
+Measures of central tendency:
+
+    1. Mean
+    2. Median
+    3. Mode
+
+Measure of dispersion:
+
+    1. Range : difference between its maximum and minimum values
+    2. Distribution: a probability distribution, or distribution, is a function that illustrates probable values for a variable, and the frequency with which they occur. Histograms are an effective tool to visualize a distribution, because the shape provides additional insight into your data and how to proceed with analysis. Distributions have many possible shapes, including normal, skewed, and bimodal.
+    3. Normal distribution: symmetrically bell curve
+    4. Skewed distribution: asymmetrical shape, tall peak on one side (can be left or right)
+    5. Bimodal distribution: two separate peaks
+    6. Variance: measure of dispersion that takes the values for each observation in a dataset and calculates how far away they are from the mean value.
+    7. Standard deviation: statistic that measures dispersion in terms of how far values of a variable are from its mean. Specifically, standard deviation is the average deviation between individual values and the mean. Mathematically,  signifies population standard deviation.
+    ![alt text](image-3.png)
+    ![alt text](image-4.png)
+    
+    
+    Q1, Q2, Q3, IQR
+    
+    Cofidence interval conderations
+    In inferential statistics, a confidence interval is a range of values that's likely to contain the true value of an unknown population parameter. It's calculated from sample data and provides a level of confidence that the true parameter falls within the interval.
+
+    For example, if you calculate a 95% confidence interval for the mean height of adult males in a city to be 170 cm to 180 cm, it means that you are 95% confident that the true mean height of all adult males in that city falls within that range.
+    
+    
+    ![alt text](image-5.png)
+    ![alt text](image-6.png)
+    ![alt text](image-7.png)
+    ![alt text](image-8.png)
+    
+    
+    
+    Hypoethsis Testing
+    
+    A hypothesis test consists of two components: the null hypothesis and the alternative hypothesis. When designing a hypothesis test, you first develop the null hypothesis. A null hypothesis (H0) presumes that there is no effect on the test you are conducting. When hypothesis testing, your default assumption is that the null hypothesis is valid and that you have to have evidence to reject it.
+    
+    The alternative hypothesis (Ha) presumes that the test you are conducting has an effect. The alternative hypothesis for the airline pricing example is that people over 75 inches are willing to pay more for more legroom. The ultimate goal is to assess whether the null hypothesis is valid or if there is a statistically significant reason to reject the null hypothesis.
+    
+    Once you have a test statistic, you can calculate a p-value. A p-value is the probability that a test statistic is as or more extreme as your actual results, presuming the null hypothesis is true. You can think of the p-value as the evidence against the null hypothesis. The range for p-values falls between 0 and 1. The lower the p-value, the less likely the test statistic results from random chance. When you compare your p-value with your significance level, it is generally accepted that if a p-value is less than 0.05, you may consider the results “statistically significant.”
+    
+     A one-tailed test is when the alternative hypothesis is trying to prove a difference in a specific direction. If your alternative hypothesis is trying to determine if a value is lower than the null value, you use a one-tailed test. Similarly, if your alternative hypothesis is assessing whether a value is higher than the null value, a one-tailed test is appropriate. Since the airline example assesses whether a person is willing to pay more for additional legroom, it is a one-tailed test. 
+    
+    A two-tailed test is when the alternative hypothesis seeks to infer that something is not equal to the assertion in the null hypothesis. 
+    
+    
+    Hypothesis testing with the Z-test:
+    
+    Is appropriate for sample size of 30, standard deviation is known and you using normal distribution.
+    
+    Hypothesis testing with T-test:
+    
+    Standard deviation is unknown. Have a sample size less than 30. uses t-distribution instead of normal standard deviation.
+    
+    Hypothesis Testing with Chi-Square
+    
+    Z-tests and t-tests work well for numeric data. However, there are times when you want to compare the observed frequencies of categorical variables against what was expected. The chi-square test is available when you need to assess the association of two categorical variables. In this case, the null hypothesis asserts that there is no association between the variables, and the alternative hypothesis states that there is an association between them.
+    
+    Simple Linear Regression
+    Simple linear regression is an analysis technique that explores the relationship between an independent variable and a dependent variable. You can use linear regression to identify whether the independent variable is a good predictor of the dependent variable. 
+    
+    From Simple to Multiple Linear Regression
+    Note that you explore the relationship between two variables using simple linear regression. Multiple linear regression builds on that concept by examining the effect of numerous independent variables on a dependent variable. 
+    
+    Analysis Techniques
+    
+    1. Determine types of analysis
+    2. Types of analysis
+    3. Exploring data analysis:
+        a. Check data structure
+        b. Check data representation
+        c. Check if data is missing
+        d. Identify outliers
+        e. Summarize statistics
+        f. Check assumptions
+    
+    
+    
+    Differentiate between descriptive and inferential statistics.
+    
+    Descriptive statistics help you understand past events by summarizing data and include measures of frequency and measures of dispersion. Inferential statistics use the powerful concept of concluding an overall population using a sample from that population.
+    
+    Calculate measures of central tendency.
+    
+    Given a dataset, you should feel comfortable calculating the mean, median, and mode. Recall that the mean is the mathematical average. The median is the value that separates the lower and higher portions of an ordered set of numbers. The mode is the value that occurs most frequently. While mean and median are applicable for numeric data, evaluating the mode is particularly useful when describing categorical data.
+    
+    Explain how to interpret a p-value when hypothesis testing.
+    
+    Recall that p-values denote the probability that a test statistic is as extreme as the actual result, presuming the null hypothesis is true. The lower the p-value, the more evidence there is to reject the null hypothesis. Generally speaking, it is safe to consider p-values under 0.05 as being statistically significant. With p-values greater than 0.05, there is less evidence supporting the alternative hypothesis.
+    
+    Explain the difference between a Type I and Type II error.
+    
+    When hypothesis testing, a Type I error is a false positive, while a Type II error is a false negative. Suppose you have a null hypothesis stating that a new vaccine is ineffective and an alternative hypothesis stating that the vaccine has its intended impact. Concluding that the vaccine is effective when it isn't is a Type I error. A Type II error is a false conclusion that the vaccine does not work when it does have the intended effect.
+    
+    Describe the purpose of exploratory data analysis (EDA).
+    
+    One of the first things you should perform with any new dataset is EDA, a structured approach using descriptive statistics to summarize the characteristics of a dataset, identify any outliers, and help you develop your plan for further analysis.
+    
