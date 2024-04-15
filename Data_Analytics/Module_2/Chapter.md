@@ -288,3 +288,41 @@ Here's how it works: You start a session, ask the database to create a temporary
 ### Execution plan:
 
 An execution plan shows the details of how a database runs a specific query. Execution plans are extremely helpful in troubleshooting query performance issues. They provide additional information about how a query is spending its time. For example, an execution plan can tell you if a slow-running query uses a full table scan instead of an index scan. In this case, it could be that the query is poorly written and not using the existing indexes. It also could be that a column needs a new index. Looking at execution plans is an integral part of developing efficient queries. It is worth understanding the nuances of how to interpret execution plans for the database platform you use. If you need help understanding an execution plan, get in touch with your local database administrator.
+
+
+# Chapter 4
+
+## Duplicate Data
+
+To remove duplicate data a company has a duplicate resolution process.
+This process looks for customers with multiple billing addresses, validates the correct address, and updates the Sales database by removing the duplicate record.
+
+## Redundant Data
+
+While duplicate data typically comes from accidental data entry, redundant data happens when the same data elements exist in multiple places within a system. Frequently, data redundancy is a function of integrating multiple systems.
+
+Cause of data redundancy is inappropriate DB design.
+
+## Missing Values/Null Values (absence of a value)
+
+Expect an attribute to contain data but nothing is there. 
+
+## Invalid Data
+
+Invalid data are values outside the range for a given attribute. 
+
+Example:
+
+Temper is -999999
+
+## Nonparametric Data
+
+## Data Outliers
+
+## Specification Mismatch
+
+A specification describes the target value for a component. A specification mismatch occurs when an individual component's characteristics are beyond the range of acceptable values. 
+
+## Data validation
+
+Ensure data has a consistent data type.
