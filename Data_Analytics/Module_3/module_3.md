@@ -68,6 +68,68 @@ Analytic Suites
 
 # Chapter 7 
         
+Understanding the Business Requirements
+
+    • Report: static electronic or physical document that reflects info at a given point in time.
+    • Dashboard: interactive visualization that encourages people to explore data dynamically.
+    • "who is the audience" - when defining a report/dashboards
+    • Pull approach: you publish a report to a known location, like a web page, and let people know the frequency and timing of when the report updates. With this approach, people can go to the website when they want to use the report.
+    • Push approach: the report is automatically sent to the appropriate people as it becomes available. When designing a push approach, you need to think through distribution considerations.
+    • blended approach: you store the report centrally and let people know when the report has been updated and is ready for use. With the blended approach, you inform people that the report is available while maintaining central control of the report itself.
+    
+Understanding report design elements
+
+“five Cs” (control, correctness, clarity, consistency, and concentration) of creating visualizations :
+
+    • Control: has to do with how you focus the attention of your audience. 
+    • Correctness : makes sure that your information is accurate and that there are no spelling mistakes
+    • Clarity: refers to selecting the right visualization tool for communicating your message, making sure the visualization is easy to interpret and visually crisp, and using fonts and sizes that are easy to read.
+    • Consistency refers to using the same design and documentation elements throughout your report or dashboard to give your visualization a cohesive and complete feel.
+    • Concentration refers to using visuals to focus your audience's attention on the most relevant information without overwhelming them with details.
+
+Report cover page: "first impressions"
+
+Executive summary: provides overview of the report's contents.
+
+Design elements
+
+Color schemes:complementary palette starts with two contrasting colors. Examples of complementary colors are red and green, orange and blue, and yellow and purple.
+
+Layouts: 
+
+![alt text](image.png)
+    
+    
+    
+Font:  typography, a serif is a finishing detail for each letter in a typeface. A serif font style includes serifs (the curls), whereas a sans serif font style does not.
+    
+![alt text](image-1.png)
+    
+ Graphics:
+    
+   Corporate Reporting Standards
+    When developing any type of visualization, be mindful of any existing corporate reporting standards. For instance, your organization may have a style guide for reporting. A style guide is a set of standards that drives consistency in communication. As a means of enforcing structure and consistency, style guides define the use of a variety of branding elements, including page layout, font selection, corporate color codes, logos, and trademarks.
+    
+    Documentation Elements
+    Version Number
+    Reference Data Sources
+    FAQs
+    Appendix
+    
+     key performance indicators (KPIs) crucial to senior leaders. A KPI is a metric that leadership agrees is crucial to achieving the organization's business objectives. As you identify what leaders want to see, you can locate where to get the relevant data.
+    
+     C-level executives, with titles like chief executive officer and chief financial officer, have the most senior leadership positions in an organization. 
+    
+    ![alt text](image-2.png)
+    
+    mock-up extends a wireframe by providing details about the visual elements of the dashboard, including fonts, colors, logos, graphics, and page styles. While a wireframe is conceptually similar to a blueprint, a mock-up is closer to an architectural rendering. 
+    
+     wireframe is a blueprint for an application that defines the basic design and functions of a dashboard. 
+    If subscription capability is a requirement, you need to have a system where people can opt-in to receive a notification when the underlying data changes.
+    . Access permissions define the data that a given person can access. When defining access permissions, do so in terms of roles instead of people.
+    ![alt text](image-3.png)
+    
+    
         
 
 
