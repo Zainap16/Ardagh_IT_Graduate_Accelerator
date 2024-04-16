@@ -129,8 +129,37 @@ Font:  typography, a serif is a finishing detail for each letter in a typeface. 
     . Access permissions define the data that a given person can access. When defining access permissions, do so in terms of roles instead of people.
     ![alt text](image-3.png)
     
-    
+    Histogram
+    Maps
+
+* Geographic Maps
+* Heat Maps
+* Tree Maps
+
+Waterfall
+
+Infographic
+
+Word Cloud - is a visualization that uses shape, font size, and color to signify the relative importance of words. When creating a word cloud, you eliminate common words and conjunctions as they occur frequently and don't add value in terms of meaning.
+
         
+### Static and Dynamic
+
+* Static reports pull data from various data sources to reflect data at a specific point in time. 
+
+* Dynamic reports give people real-time access to information.
+
+* Ad hoc reports, or one-time reports, use existing data to meet a unique need at a specific point in time
+
+* Self-service reports, or on-demand reports, allow individuals to answer questions that are unique to them at a time of their choosing.
+
+* Recurring reports provide summary information on a regularly scheduled basis. 
+
+* Tactical reports provide information to inform an organization's short-term decisions. Tactical information helps organizations accomplish initiatives like constructing a building, opening a manufacturing plant, or shipping products from one location to another. 
+
+* A research report helps an organization make strategic decisions. To achieve strategic objectives, an organization executes multiple tactical initiatives. Where a tactical report informs a decision with a finite scope and duration, research reports inform the development of an overarching strategy. 
+
+
 
 
 
