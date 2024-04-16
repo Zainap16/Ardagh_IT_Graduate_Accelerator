@@ -4,20 +4,30 @@ Python & R & SQL
 
 Structured Query Language (SQL)
 The Structured Query Language (SQL) is the language of databases. Any time a developer, administrator, or end user interacts with a database, that interaction happens through the use of a SQL command. SQL is divided into two major sublanguages:
-• The Data Definition Language (DDL) is used mainly by developers and administrators. It's used to define the structure of the database itself. It doesn't work with the data inside a database, but it sets the ground rules for the database to function.
-• The Data Manipulation Language (DML) is the subset of SQL commands that are used to work with the data inside of a database. They do not change the database structure, but they add, remove, and change the data inside a database.
-As you prepare for the exam, you'll need to be familiar with the major commands used in SQL. It's important to understand that you are not responsible for writing or reading SQL commands. You just need to know what the major commands are and when you would use them.
-There are three DDL commands that you should know:
-• The CREATE command is used to create a new table within your database or a new database on your server.
-• The ALTER command is used to change the structure of a table that you've already created. If you want to modify your database or table, the ALTER command lets you make those modifications.
-• The DROP command deletes an entire table or database from your server. It's definitely a command that you'll want to use with caution!
-There are also four DML commands that you should know:
-• The SELECT command is used to retrieve information from a database. It is the most commonly used command in SQL as it is used to pose queries to the database and retrieve the data that you're interested in working with.
-• The INSERT command is used to add new records to a database table. If you are adding a new employee, customer order, or marketing activity, the INSERT command allows you to add one or more rows to your database.
-• The UPDATE command is used to modify rows in the database. If you need to change something that is already stored in your database, the UPDATE command will do that.
-• The DELETE command is used to delete rows from a database table. Don't confuse this command with the DROP command. The DROP command deletes an entire database table, whereas the DELETE command just deletes certain rows from the table.
 
-From <https://classes.capaciti.org.za/courses/course-v1:CITI+DA+2023/courseware/8abd7fc74baf48ffb547dd479797528f/ab7c9e9d1f244efd8f57cc205c823e52/?child=first> 
+• The Data Definition Language (DDL) is used mainly by developers and administrators. It's used to define the structure of the database itself. It doesn't work with the data inside a database, but it sets the ground rules for the database to function.
+
+• The Data Manipulation Language (DML) is the subset of SQL commands that are used to work with the data inside of a database. They do not change the database structure, but they add, remove, and change the data inside a database.
+
+As you prepare for the exam, you'll need to be familiar with the major commands used in SQL. It's important to understand that you are not responsible for writing or reading SQL commands. You just need to know what the major commands are and when you would use them.
+
+There are three DDL commands that you should know:
+
+• The CREATE command is used to create a new table within your database or a new database on your server.
+
+• The ALTER command is used to change the structure of a table that you've already created. If you want to modify your database or table, the ALTER command lets you make those modifications.
+
+• The DROP command deletes an entire table or database from your server. It's definitely a command that you'll want to use with caution!
+
+There are also four DML commands that you should know:
+
+• The SELECT command is used to retrieve information from a database. It is the most commonly used command in SQL as it is used to pose queries to the database and retrieve the data that you're interested in working with.
+
+• The INSERT command is used to add new records to a database table. If you are adding a new employee, customer order, or marketing activity, the INSERT command allows you to add one or more rows to your database.
+
+• The UPDATE command is used to modify rows in the database. If you need to change something that is already stored in your database, the UPDATE command will do that.
+
+• The DELETE command is used to delete rows from a database table. Don't confuse this command with the DROP command. The DROP command deletes an entire database table, whereas the DELETE command just deletes certain rows from the table.
 
 Statistics packages
 
