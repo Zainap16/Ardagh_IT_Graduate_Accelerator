@@ -80,3 +80,30 @@ You have documented the return-on-investment (ROI).
 Legal and compliance teams (internally or externally) understand and support the goals of the program.
 Fundamental data skills exist for the data governance journey.
 The IT organization is capable and resourced to support the program.
+
+# Chapter Two
+
+* Defining Data
+
+Data refers to collections of digitally stored units, in other words, stuff that is kept on a computing device. These units represent something meaningful when processed for a human or a computer. Single units of data are traditionally referred to as datum and multiple units as data. 
+
+Data is also defined based on its captured format. Specifically, at a high level, it falls into one of the following categories:
+
+Structured: Data that has been formatted to a set structure; each data unit fits nicely into a table in a database. It’s ready for analysis. Examples include first name, last name, and phone number.
+Unstructured: Data that are stored in a native format must be processed to be used. Further work is required to enable analysis. Examples include email content and social media posts.
+Semi-structured: Data that contains additional information to enable the native format to be searched and analyzed.
+
+
+The Zettabyte Era
+
+![alt text](image-3.png)
+
+
+![alt text](image-2.png)
+
+![alt text](image-4.png)
+
+
+![alt text](image-5.png)
+
+![alt text](image-6.png)
