@@ -109,9 +109,51 @@ The Zettabyte Era
 ![alt text](image-6.png)
 
 ## Data-Driven Decision-Making
+* Perhaps one of the greatest values of data is its ability to help us all make better decisions.
+
+## Data as The New Oil
+* A popular refrain coined by the mathematician Clive Humby in 2006 is that data is the new oil. Just as oil drove and grew economies in the past, data is doing that now. 
+
+## Data Ownership
+
+Data ownership describes the rights a person, team, or organization has over one or more data sets. These rights may span from lightweight oversight and control to rigorous rules that are legally enforceable. For example, data associated with intellectual property — items such as copyrights and trade secrets — will likely have high degrees of protection, from accessibility rights to who can use the data and for what purpose.
+
+## Data Architecture
+
+* When designing the technical needs of an organization to support its business strategy, this practice is known as enterprise architecture (EA).
+
+* A subset of EA is data architecture
+
+* Data architecture is the agreed blueprint for how data supports an organization’s functions and technologies.
+
+At a minimum, data architecture considers and typically supports the following:
+
+Ensuring data is available to those who need it and are approved to use it.
+Reducing the complexity of accessing and utilizing data
+Creating and enforcing data protections to support organizational policies and obligations.
+Adopting and agreeing to data standards
+Optimizing the flow and efficient use of data to eliminate bottlenecks and duplication
+
+* Data architecture is a direct reflection of data governance. An established and functioning data architecture immediately signals that an organization values data, manages it as a critical business asset, and has controls in place to ensure that it aligns with business needs.
+
+![asset-v1_CITI+DS+2023+type@asset+block@The_lifecycle_of_data](https://github.com/Zainap16/Ardagh_IT_Graduate_Accelerator/assets/122858207/1164be2a-0b71-4714-8ab6-4915266e4e69)
+
+* Creation:  This is the stage at which data comes into being. It may be manual or automated and get created internally or externally. Data is created all the time by a vast number of activities that include system inputs and outputs.
+
+* Storage:  Once data is created and assuming you want it available for later use, it must be stored. It most likely will be contained and managed in a database. The database needs a home, too as a local hard drive, server, or cloud service.
+  
+* Usage:  Hopefully you’re capturing and storing data because you want to use it. Maybe not immediately, but at some point, perhaps for analysis. Data may need to be processed to be useful. That could include cleansing it of errors, transforming it to another format, and securing access rights.
+
+* Archival:  In this stage, you identify data that is not currently being used and move it to a long-term storage system out of your production environment. If it's needed at some point in the future, it can be retrieved and utilized.
+
+* Destruction:  Despite a desire by some to keep everything forever, there is a logical point where destruction makes sense or is required by regulation or policy. Data destruction involves making data inaccessible and unreadable. It can include the physical destruction of a device such as a hard drive.
 
 
 
 
-testings
+
+
+
+
+
 
