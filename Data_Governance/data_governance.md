@@ -197,11 +197,35 @@ Insight management begins with gathering and analyzing data from different sourc
   
 * Data reuse:  While we collect and use data for a specific primary purpose, data is often reused for entirely different reasons. Data that has been collected, used, and stored can be retrieved and used by a different team at another time - assuming they have permission, including access and legal rights (notable controls within data governance). For example, the sales team in an organization will collect your name and address in order to fulfill an order. Later, that same data set may be used by the marketing team to create awareness about other products and services. These are two different teams with different goals using the same data. Data reuse can be considered a positive given that it reduces data collection duplication and increases the value of data to an organization, but it must be managed with care so that it doesn’t break any data use rules. (Note: High-value shared data sets are called master data, and in data governance, they are subject to master data management.)
 
+## Approaching Data as an Asset
 
+Here are some examples of the economic value of data:
 
+* Improves operations.
+* Increases existing revenue.
+* Produces new forms of revenue.
+* Builds relationships with customers and other stakeholders.
+* Improves the quality of products and services.
+* Contributes to competitive advantage.
+* Enables innovation.
+* Reduces risk.
 
+## Data Analytics
 
+![asset-v1_CITI+DS+2023+type@asset+block@Basics_steps_in_data_analysis](https://github.com/Zainap16/Ardagh_IT_Graduate_Accelerator/assets/122858207/a4634d0f-5cd5-4955-a090-e7f2cc70b1d7)
 
+* Descriptive:  Existing data sets of historical data are accessed, and analysis is performed to determine what the data tells stakeholders about the performance of a key performance indicator (KPI) or other business objectives. It is insight on past performance.
+* Diagnostic:  As the term suggests, this analysis tries to glean from the data the answer to why something happened. It takes descriptive analysis and looks at the cause.
+* Predictive:  In this approach, the analyst uses techniques to determine what may occur in the future. It applies tools and techniques to historical data and trends to predict the likelihood of certain outcomes.
+* Prescriptive:  This analysis focuses on what action should be taken. In combination with predictive analytics, prescriptive techniques provide estimates of the probabilities of a variety of future outcomes.
+* 
+![asset-v1_CITI+DS+2023+type@asset+block@The_relative_complexity_and_business_value_of_four_types_of_analytics](https://github.com/Zainap16/Ardagh_IT_Graduate_Accelerator/assets/122858207/1010647c-2233-419b-bae6-80390da8e12f)
+
+## Data Management
+
+Data governance concerns itself with, for example, defining the roles, policies, controls, and processes for increasing the quality and value of organizational data.
+
+Data management is the implementation of data governance. Without data management, data governance is just wishful thinking. To get value from data, there must be execution.
 
 
 
