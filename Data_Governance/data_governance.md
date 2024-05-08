@@ -228,6 +228,42 @@ Data governance concerns itself with, for example, defining the roles, policies,
 Data management is the implementation of data governance. Without data management, data governance is just wishful thinking. To get value from data, there must be execution.
 
 
+# Chapter Four
+
+data silo is a data repository controlled by an entity in an organization but not frequently shared or known by other parts of the business. Data silos hinder business efficiencies because they reduce collaboration and increase data inconsistencies. In addition, they are a source of risk, including security and regulatory issues.
+
+Data catalogs - are an essential way that data governance can help solve these limitations.
+
+ data sprawl — a term for the myriad of data types and sources that most businesses grapple with today (Data sprawl is the accumulation of vast amounts of data by organizations, to the point where they no longer know what data they have or what is happening with that data.)
+
+Knowing what data is available is essential for the following reasons:
+
+* Better informed decision-making.
+* Ensuring compliance and regulatory requirements.
+* Lower costs by avoiding duplicate system and data efforts.
+* Improved data analytics and reporting.
+* Higher performing systems.
+* More efficient operations.
+* Reducing data inconsistencies across the enterprise.
+
+## Data Catalogs
+
+The three essential benefits of data catalogs are:
+
+* Finding data: Helps users identify and locate data that may be useful.
+* Understanding data:  Answers a wide variety of data questions such as its purpose and who uses it.
+* Making data more useful:  Creates visibility, describes value, and provides access to information.
+
+![Uploading asset-v1_CITI+DS+2023+type@asset+block@A_basic_orientation_of_the_components_of_a_data_catalogue.jpg…]()
+
+
+
+
+
+
+
+
+
 
 
 
