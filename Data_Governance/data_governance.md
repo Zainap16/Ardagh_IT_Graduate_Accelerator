@@ -254,19 +254,140 @@ The three essential benefits of data catalogs are:
 * Understanding data:  Answers a wide variety of data questions such as its purpose and who uses it.
 * Making data more useful:  Creates visibility, describes value, and provides access to information.
 
-![Uploading asset-v1_CITI+DS+2023+type@asset+block@A_basic_orientation_of_the_components_of_a_data_catalogue.jpg…]()
+
+![asset-v1_CITI+DS+2023+type@asset+block@A_basic_orientation_of_the_components_of_a_data_catalogue](https://github.com/Zainap16/Ardagh_IT_Graduate_Accelerator/assets/122858207/7cd95ca3-3dc0-4a72-92a9-79c85da9e6f3)
+
+What makes a data catalog particularly valuable is that it contains data about the data. It’s called metadata.
+
+A data catalog can contain three types of metadata: technical, business, and operational.
+
+* Technical metadata:  Data about the design of a data set such as its tables, columns, file names, and other documentation related to the source system.
+* Business metadata:  Organizational data such as a business description, how it is used, its relevancy, an assessment of data quality, and users and their interactions.
+* Operational metadata:  Data such as when the data was last accessed, who accessed it, and when was it last backed up.
+
+Examples of metadata include the following:
+
+* Associated systems.
+* File names.
+* File locations.
+* Data owners.
+* Data descriptions.
+* Dates created.
+* Dates last modified.
+* List of database tables and views.
+* Data stewards.--refers to the lead role in a data governance project
+* Size of data sets.
+* Quality score.
+* Comments
+
+With a data catalog, an organization can:
+
+* Know what data it has (and by extension, know what data is missing).
+* Reduce data duplication.
+* Increase operational efficiencies and innovation.
+* Understand data quality.
+* Manage compliance.
+* Enjoy cost savings from improved operations.
+* Ability to find data tops the list
+
+Acquiring and applying insight from data means defining the following:
+
+* Context: Understanding the environment and objectives of the outcome
+* Need: Determining how insight will help to accomplish the objective
+* Vision: Having ideas about how insight will help and what that might look like in practice
+* Outcome:  Specifying how insights will be adopted and success will be measured
+
+These dimensions can be used to answer questions such as:
+
+* What data is required?
+* Does the data exist?
+* Is it current?
+* Is it easily available?
+* What format is the data in?
+* What kind of data analysis is required?
+* How will the data be presented?
+
+## Data Analytics
+
+Data analysis is concerned with identifying a data set, examining it, and reporting on any findings. It’s a subset of data analytics and it typically focuses on what data from the past tells us. 
+
+ On the other hand, data analytics is a complete science that involves collecting, cleaning, organizing, storing, administering, and analyzing data. 
+
+The source of data for analytics is one or a combination of the following:
+
+* First-party data:  Data that an organization collects.
+* Second-party data:  Data that is obtained from another organization.
+* Third-party data:  Aggregated data obtained from a provider.
+
+Typical uses of contemporary data analytics tools and techniques include:
+
+* Vastly improved decision-making
+* Focused marketing campaigns
+* Understanding the competitive landscape
+* Designing more innovative products
+* Better customer service
+* Improved operations
+* Insights on customer behavior
+
+## Data Monetization
+
+Without a process to place a price on a data set - called data valuation - the value of a given data set may be highly subjective and may differ considerably between the perspectives of team members.
+
+When data provides an economic benefit to an organization, it's called data monetization. 
+
+* Cost value method:  Value is calculated by determining how much it costs to produce, store, and replace lost data. It’s a simple method and can be useful as a lightweight approach, but it is subjective and doesn’t necessarily account for the economic value that the data can produce.
+* Market value approach:  Value is calculated by researching how comparable data is being priced in the open market. It’s a great approach if market-based comparable data exists but doesn’t work for the vast number of data sets that are not traded.
+* Economic value approach:  Value is calculated by measuring the impact a data set has on the business’s bottom line. It’s a difficult approach because it may be nearly impossible to identify the specific value of the data relative to other contributors of value.
+* With-and-without method:  Value is calculated by quantifying the impact on cash flow if a data set needs to be replaced. Scenarios with and without the data are explored and the difference between cash flow is used to determine data value. Like others, this can be challenging to pinpoint the specific impact of a data set.
+
+Assuming your organization realizes that data is a strategic corporate asset, you must be intentional in how you manage that asset. Called data asset management, a business must know what data sets it has and understand their value. It must have a plan for utilization and a mechanism to measure return on investment.
+
+## Data-Driven Decision Making
+
+data-driven decision-making (DDDM) is the process of using data to drive business decisions.
+
+Consider this six-step process to data-driven decision-making:
+
+1. Define the objectives:  This step involves understanding the objectives relative to the effort and their alignment with organizational goals. This will help you scope the work and define the metrics. In fact, it can be useful to define success and then work backward. For example, if you’re trying to increase sales in a particular region, you need to identify which metrics to capture in order to determine whether you achieved that objective.
+2. Identify the data:  In addition to using a data catalogue, enterprise search, or similar, this step requires engaging with impacted stakeholders. Getting input from a diverse group of people and teams will help you scope the data. This may generate the need to gather data that doesn’t exist. You may need to consult with data stewards, data owners, and others with data governance responsibilities.
+3. Prepare the data:  After Step 2, you'll understand the degree of preparation you need. If the problem you’re trying to solve is narrow and the data is easily accessible and high-quality, you’ll be in pretty good shape. In most cases, your situation is unlikely to be simple. The data necessary to meet your decision-making objectives will likely come in a variety of formats and will be in need of some remediation. You may need some deep data science skills to prepare the data for use in a data analytics platform.
+4. Analyze the data:  Once you reach this point, the most exciting part begins. The assumption is that you’re using a useful analytics tool. For complex analysis and continuous efforts, several tools will be used. This could include support for an ETL architecture (Extract, Transform, and Load). This is when data is extracted from one system and made ready and available for use in another. To analyze this data, you will also need relevant representations such as visualizations. These could include graphs and charts. Your tool selection and how the data is presented will depend largely on the audience. For executives, a dashboard may be the right approach.
+5. Determine the findings:  Once you have data that you can display in a variety of ways, you can ask questions about it. For example, if you’re trying to understand customer demographics relative to sales in a particular region, you may want to toggle between different age ranges. While all phases of DDDM have complexity, the tough work here is knowing which questions to ask. This skill is aided by training, but experience helps.
+6. Take action:  That’s all there is to this step. Make your decisions. If you’ve completed Steps 1-5 well, but no action is taken (assuming that’s not the decision based on analyzing the data since concluding that no decision is necessary is, in fact, a decision), you’ve wasted a lot of time. DDDM is all about the decisions that result in actions.
+
+
+The purpose of any type of strategy is to agree on a set of guiding principles that inform decision-making in support of a desired outcome. In simple terms, it’s the roadmap on how to reach your goals.
+
+## Creating a Data Strategy
+
+So, you’ve made the decision to create a data strategy. That’s great. Before jumping in, consider the following characteristics as a guide to your approach:
+
+* Data maturity:  This can be defined simply as the degree to which the organization already uses and optimizes data and has experience and skills, as well as the quality of the existing data. All organizations use data, but there’s a big difference between those that have prioritized it for a long period and those just deciding to treat it as a strategic asset. For example, without some basic data standards, security policies, and a process to cleanse data, layering analytics on top of it will likely cause frustration and in the worst case, errors in the results.
+* Industry and size: You can think of data prioritization through two frameworks: defense and offense. Defense deals with fundamental areas such as data security and quality. Offense is using data for insight management and market-facing initiatives. Every organization does both, but most emphasize one over the other depending on the industry and its size. For example, a healthcare company may prioritize a defense framework for data given the highly regulated nature of the industry.
+
+## A data strategy should typically account for these five areas of data requirements:
+
+* Identify:  To find and make data usable, it must be clearly defined and described. This includes a file name, a file format, and metadata.
+* Store:  Design and develop the capabilities for supporting the place and process for hosting data and how it will be shared, accessed, and processed.
+* Provision:  Determine the processes to share and reuse data and define the guidelines for access.
+* Process:  Raw data must be transformed to become valuable. This includes processes for data cleansing, standardization, and integration with other data sets.
+* Govern:  Institute processes to manage and communicate data policies for data use within the organization.
+
+## Data requirements should consider these four data strategy components:
+
+* Alignment with the business: A data strategy is a subset of the overall business strategy. This means the data strategy must support and advance the larger goals of the organization. When determining the goals of the data strategy, where possible, map them as clearly as possible to illustrate how they are in support of the business strategy. For example, the business may want to reduce customer acquisition costs. A data strategy will be a valuable way to identify potential customers with a higher likelihood of conversion to buyers. Keep in mind that the strategy of a business evolves constantly, sometimes slowly and other times quickly. Your data strategy has to evolve in sync, as appropriate.
+* Identifying roles and responsibilities: A strategy requires people to take specific actions. Without action, a strategy is a worthless document. In the data strategy, you’ll want to document the different roles that team members will play. Most will be data consumers. These are the employees who access and use data. They will certainly have responsibilities. For example, there will be an expectation about how different classifications of data should be handled. If something is public, then that’s entirely different than something that’s confidential. However, the bulk of the responsibility for ensuring that a data strategy can be delivered and maintained will rest with team members such as the information technology staff, data scientists and analysts, data stewards and owners, and management. It will be quickly apparent that data strategy and data governance have overlapping and dependent goals. 
+* Data architecture: This area relates to the processes, systems, and applications that support working with data. Basic areas include defining data storage needs and analysis tools. It also includes items such as a data catalog, a data warehouse where data can be stored and made ready for analysis, and the methods and tools for data pipelines, moving data from a data source to a destination, and related ETL (extract, transform, and load) functions. A data strategy should support the scalability of your data architecture as well as have some flexibility as needs change. Note that data architecture is often the driver of choosing and designing data management processes and systems.
+* Data management: This area is the broad umbrella of activities that manage the full lifecycle of data in an organization. It recognizes that data is a strategic asset and must have the attendant processes, procedures, policies, skills, and tools to ensure it is treated in such a manner. This includes areas such as the management of data security and privacy, quality, metadata, integration, master data management, and analytics.
+
+![asset-v1_CITI+DS+2023+type@asset+block@The_four_components_of_a_data_strategy](https://github.com/Zainap16/Ardagh_IT_Graduate_Accelerator/assets/122858207/735ca2db-4e36-495c-8a75-9d529474d561)
+
+
+## Managing and Monitoring Your Data Strategy
 
 
 
 
 
 
-
-
-
-
-
-
-
-
-
+  
