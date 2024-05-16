@@ -128,7 +128,16 @@ A Power BI dashboard is made up of tiles that, together, tell a story.
 
 Could not get Sales & Marketing App because of no license. Wasn't able to follow along the practical activity in MS Learn.
 
+### Explore the flow of Power BI
+There's a common flow when creating reports with Power BI. First, you start with Power BI Desktop to connect to data and create the report. Then you publish the report to the Power BI service and distribute to consumers.
 
+The flow of Power BI is:
+
+Connect to data with Power BI Desktop.
+Transform and model data with Power BI Desktop.
+Create visualizations and reports with Power BI Desktop.
+Publish report to Power BI service.
+Distribute and manage reports in the Power BI service.
 
 
 
