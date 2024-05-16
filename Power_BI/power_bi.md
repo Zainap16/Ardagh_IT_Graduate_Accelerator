@@ -122,8 +122,11 @@ Pin the report visuals to a dashboard: Dashboards are the primary element that u
 
 Share a link to the dashboard: Any users with the link and the necessary permissions are easily able to view and interact with the data.
 
+![power-bi-terminology](https://github.com/Zainap16/Ardagh_IT_Graduate_Accelerator/assets/122858207/bf300a5e-6999-4084-a9fd-f03202b616d3)
 
+A Power BI dashboard is made up of tiles that, together, tell a story.
 
+Could not get Sales & Marketing App because of no license. Wasn't able to follow along the practical activity in MS Learn.
 
 
 
