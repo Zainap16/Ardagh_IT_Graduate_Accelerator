@@ -156,3 +156,78 @@ The DirectQuery option is useful when you don't want to save local copies of you
 Dual (Composite mode)
 In Dual mode, you can identify some data to be directly imported and other data that must be queried. Any table that is brought in to your report is a product of both Import and DirectQuery modes. Using the Dual mode allows Power BI to choose the most efficient form of data retrieval.
 
+
+Getting data from Azure Analysis Services server is similar to getting data from SQL Server, in that you can:
+
+Authenticate to the server.
+Pick the model you want to use.
+Select which tables you need.
+Notable differences between Azure Analysis Services and SQL Server are:
+
+Analysis Services models have calculations already created.
+If you don’t need an entire table, you can query the data directly. Instead of using Transact-SQL (T-SQL) to query the data, like you would in SQL Server, you can use multi-dimensional expressions (MDX) or data analysis expressions (DAX).
+
+Power Query takes advantage of good performance at the data source through a technique called Query Folding.
+
+### Query folding
+
+The benefits to query folding include:
+
+More efficiency in data refreshes and incremental refreshes. When you import data tables by using query folding, Power BI is better able to allocate resources and refresh the data faster because Power BI doesn't have to run through each transformation locally.
+
+Automatic compatibility with DirectQuery and Dual storage modes. All DirectQuery and Dual storage mode data sources must have the back-end server processing abilities to create a direct connection, which means that query folding is an automatic capability that you can use. If all transformations can be reduced to a single Select statement, then query folding can occur.
+
+### Other techniques to optimize performance
+Other ways to optimize query performance in Power BI include:
+
+Process as much data as possible in the original data source. Power Query and Power Query Editor allow you to process the data; however, the processing power that is required to complete this task might lower performance in other areas of your reports. Generally, a good practice is to process, as much as possible, in the native data source.
+
+Use native SQL queries. When using DirectQuery for SQL databases, such as the case for our scenario, make sure that you aren't pulling data from stored procedures or common table expressions (CTEs).
+
+Separate date and time, if bound together. If any of your tables have columns that combine date and time, make sure that you separate them into distinct columns before importing them into Power BI. This approach will increase compression abilities.
+
+
+### Resolve data import errors
+
+While importing data into Power BI, you may encounter errors resulting from factors such as:
+
+Power BI imports from numerous data sources.
+Each data source might have dozens (and sometimes hundreds) of different error messages.
+Other components can cause errors, such as hard drives, networks, software services, and operating systems.
+Data often can't comply with any specific schema.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
